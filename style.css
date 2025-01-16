@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+      font-family: "Public Sans", serif;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 100px;
+}
+
+header {
+    padding: 15px 0;
+}
+
+.header-parent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-right {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.header-right a {
+    text-decoration: none;
+    color: #000;
+}
+
+.header-right a:hover {
+    color: #BA4270;
+}
+
+.header-right button {
+    background-color: #BA4270;
+    border-radius: 100px;
+    color: white;
+    border: none;
+    width: 173px;
+height: 48px;
+cursor: pointer;
+}
+
+.header-right button:active {
+    transform: scale(1.1);
+}
+
+.parent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    margin-top: 50px;
+}
+
+.left h1 {
+font-size: 72px;
+}
+
+.left {
+    max-width: 546px;;
+}
+
+.right h1 {
+    margin: 50px 0;
+}
+
+.right p {
+    line-height: 28px;
+}
+
+
+.icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.child p {
+    margin-top: 40px;
+    color: #36536B;
+}
+
+.footer-left {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.footer-left a {
+    text-decoration: none;
+    color: white;
+}
+
+footer {
+    background-color: #1B262F;
+    padding: 15px 0;
+}
+
+.footer-parent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-right {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
